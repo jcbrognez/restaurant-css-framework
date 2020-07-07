@@ -1,0 +1,13 @@
+main {
+  width: 85%;
+  margin: auto;
+}
+
+main .card p {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+main .card p :hover {
+  background-color: #FFF;
+}
+/*# sourceMappingURL=restaurant.css.map */
