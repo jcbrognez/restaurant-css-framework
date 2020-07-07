@@ -1,0 +1,18 @@
+main{
+    width:85%;
+    margin:auto;
+}
+
+form{
+    background:transparent;
+}
+
+.btn-primary {
+    background-color: #201C1D;
+    border-style: none;
+    margin-top: 30px;
+    &:hover {
+        background-color: #FCE2CC;
+        color: #201C1D;
+    }
+}

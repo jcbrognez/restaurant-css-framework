@@ -1,0 +1,206 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #7D110E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+header {
+  background-color: #FCE2CC;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px 0 15px;
+}
+
+header h1 {
+  font-family: 'Galada', cursive;
+  font-size: 3rem;
+  margin: 0 0 0 6vw;
+}
+
+header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header nav a {
+  color: #201C1D;
+  margin: 0 10px;
+}
+
+header nav a:hover {
+  color: #201C1D;
+}
+
+header .nav-menu {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 60vw;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.3rem;
+}
+
+header .list-menu {
+  display: none;
+}
+
+footer {
+  bottom: 0;
+  width: 100%;
+  height: 118px;
+  margin-top: 65px;
+  background-color: #FCE2CC;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .social i {
+  margin: 15px 30px 15px 30px;
+  color: #201C1D;
+}
+
+footer a {
+  color: #201C1D;
+  margin: 0 10px;
+}
+
+footer a:hover {
+  color: #201C1D;
+}
+
+@media (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+  .nav-menu {
+    opacity: 0;
+    -webkit-transform: translateX(200%);
+            transform: translateX(200%);
+  }
+  header .list-menu {
+    display: block;
+    right: 6vw;
+  }
+  .btn {
+    background-color: #7D110E;
+    border: none;
+  }
+  .btn:hover {
+    background-color: #201C1D;
+  }
+  .dropdown-item {
+    margin: 0;
+  }
+  .dropdown-item:hover {
+    text-decoration: underline;
+    color: #7D110E;
+  }
+}
+
+.container-fluid {
+  background: white;
+  max-width: 90%;
+  padding-top: 1rem;
+  border-radius: 1.25rem;
+}
+
+h2 {
+  text-align: center;
+  color: #FCE2CC;
+  font-family: 'Galada', cursive;
+  font-size: 2.5rem;
+  margin: 15px 0 15px 0;
+}
+
+.imgallery {
+  width: 100%;
+  padding: 0;
+  overflow: hidden;
+  border-radius: 1.25rem;
+  -webkit-box-shadow: 2px 2px 3px #7c7c7c;
+          box-shadow: 2px 2px 3px #7c7c7c;
+  -webkit-transition: all .7s;
+  transition: all .7s;
+}
+
+.imgallery img {
+  -webkit-transition: opacity .7s, -webkit-filter .7s, -webkit-transform 0.7s;
+  transition: opacity .7s, -webkit-filter .7s, -webkit-transform 0.7s;
+  transition: filter .7s, transform 0.7s, opacity .7s;
+  transition: filter .7s, transform 0.7s, opacity .7s, -webkit-filter .7s, -webkit-transform 0.7s;
+}
+
+.imgallery:hover {
+  -webkit-transition-duration: .7s;
+          transition-duration: .7s;
+}
+
+.imgallery:hover img {
+  -webkit-filter: brightness(90%) contrast(110%);
+          filter: brightness(90%) contrast(110%);
+  opacity: 0.7;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition-duration: .7s;
+          transition-duration: .7s;
+}
+
+.pagination ul {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  display: inline;
+}
+
+li .page-link {
+  font-weight: 500;
+  color: black !important;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.pagination > .active > a {
+  background-color: #7D110E !important;
+  border-color: #7D110E !important;
+  color: white !important;
+}
+
+.pagination li:hover:not(.active) a {
+  background-color: #FCE2CC;
+}
+/*# sourceMappingURL=style-pictures.css.map */

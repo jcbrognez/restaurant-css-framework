@@ -1,0 +1,31 @@
+.display-4 {
+  margin-top: 40px;
+  color: #FCE2CC;
+  font-family: 'Galada', cursive;
+}
+
+main {
+  width: 90%;
+  margin: 0;
+  background-image: url("../img/brooke-lark-08bOYnH_r_E-unsplash.jpg");
+  height: 100vh;
+}
+
+main article {
+  background-color: #FCE2CC;
+  border-radius: 5px;
+  margin-top: 50px;
+}
+
+main .jumbotron {
+  background-color: rgba(250, 249, 249, 0.7);
+  margin: 10vh 0 0 0;
+  padding: 2em 0;
+}
+
+main .title {
+  color: #201C1D;
+  font-family: 'Galada', cursive;
+  font-size: 3rem;
+}
+/*# sourceMappingURL=welcome.css.map */
