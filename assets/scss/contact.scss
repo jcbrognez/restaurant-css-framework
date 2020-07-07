@@ -6,3 +6,12 @@ main{
 form{
     background:transparent;
 }
+
+.btn {
+    background-color: #201C1D;
+    border-style: none;
+    &:hover {
+        background-color: #FCE2CC;
+        color: #201C1D;
+    }
+}

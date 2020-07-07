@@ -6,4 +6,13 @@ main {
 form {
   background: transparent;
 }
-/*# sourceMappingURL=contact.css.map */
+
+.btn {
+  background-color: #201C1D;
+  border-style: none;
+}
+
+.btn:hover {
+  background-color: #FCE2CC;
+  color: #201C1D;
+}
