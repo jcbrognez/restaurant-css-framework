@@ -1,5 +1,7 @@
 # Projet : Bootstrap
 
+[Lien vers le Projet](https://riizbae.github.io/restaurant-css-framework/index.html)
+
 Par [Aurore Limage](https://github.com/riizbae), [Jean-Charles Brognez](https://github.com/jcbrognez), [Stéphane Kalonji](https://github.com/kalonjis) et [François Wauters](https://github.com/fwauters).
 
 ## Consignes
@@ -10,13 +12,15 @@ Réaliser un site web vitrine pour une franchise de restaurants fictive.
 
 ## Crédits Photo
 
-Toutes les photos viennent d'[Unsplash](https://unsplash.com/) et on été recadrées pour obtenir 700px/1000px.
+Toutes les photos viennent d'[Unsplash](https://unsplash.com/).
 
 ### Partie Welcome
 
 Fond : [Brooke Lark](https://unsplash.com/@brookelark)
 
 ### Partie Menu
+
+Les phots ont été recadrées pour obtenir 700px/1000px.
 
 entree_oeufs : [Joseph Gonzalez](https://unsplash.com/@miracletwentyone)
 
