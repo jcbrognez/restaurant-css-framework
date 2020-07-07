@@ -4,6 +4,21 @@
     box-sizing: border-box;
 }
 
+.container-fluid {
+    background: white;
+    max-width: 90%;
+    padding-top: 1rem;
+    border-radius: 1.25rem;
+}
+body {
+    background-color: rgb(255, 0, 0);
+}
+
+h2 {
+    text-align: center;
+    padding: 1rem 0;
+    color: white;
+}
 .imgallery {
     width: 100%;
     padding: 0;
@@ -13,7 +28,7 @@
     transition: all .8s;
     .img {
         filter: brightness(150%);
-        transition: filter .8s, opacity 0.8s, transform 0.8s, 
+        transition: filter .8s, transform 0.8s, 
     }
 }
 
@@ -22,35 +37,37 @@
 .imgallery:hover {
     transition-duration: .8s;
     img {
-        filter: brightness(90%) contrast(125%);
-        opacity: 0.6;
+        filter: brightness(110%) contrast(110%);
         transform: scale(1.1);
         transition-duration: .8s;
     }
 }
 
 
-//page-item target display block
-// pageitem seul display none
+//Style bottom pagination
 
-//PAGINATION
-/*
-.pagination {
-    margin-top: 2em;
+.pagination ul {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
     li {
+        display: inline;
         a {
-            color: rgb(71, 71, 71);
-            text-decoration: none;
             font-weight: 500;
-            font-size: 1.5em;
-            padding: 0 0.5em;
-            &.active {
-                color: rgb(160, 59, 59)
-            }
-            &:hover:not(.active) {
-                color: rgb(189, 189, 189);
-            }
+            color: black;
+            float: left;
+            padding: 8px 16px;
+            text-decoration: none;
         }
     }
+  }
+  
+.pagination > .active > a {
+    background-color: rgb(109, 9, 9) !important;
+    border-color: rgb(109, 9, 9) !important;
+    color: white;
 }
-*/
+  
+.pagination li:hover:not(.active) a {
+    background-color: rgb(245, 207, 207);
+}

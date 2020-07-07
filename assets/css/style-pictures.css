@@ -5,6 +5,23 @@
           box-sizing: border-box;
 }
 
+.container-fluid {
+  background: white;
+  max-width: 90%;
+  padding-top: 1rem;
+  border-radius: 1.25rem;
+}
+
+body {
+  background-color: red;
+}
+
+h2 {
+  text-align: center;
+  padding: 1rem 0;
+  color: white;
+}
+
 .imgallery {
   width: 100%;
   padding: 0;
@@ -19,10 +36,10 @@
 .imgallery .img {
   -webkit-filter: brightness(150%);
           filter: brightness(150%);
-  -webkit-transition: opacity 0.8s, -webkit-filter 0.8s, -webkit-transform 0.8s;
-  transition: opacity 0.8s, -webkit-filter 0.8s, -webkit-transform 0.8s;
-  transition: filter 0.8s, opacity 0.8s, transform 0.8s;
-  transition: filter 0.8s, opacity 0.8s, transform 0.8s, -webkit-filter 0.8s, -webkit-transform 0.8s;
+  -webkit-transition: -webkit-filter 0.8s, -webkit-transform 0.8s;
+  transition: -webkit-filter 0.8s, -webkit-transform 0.8s;
+  transition: filter 0.8s, transform 0.8s;
+  transition: filter 0.8s, transform 0.8s, -webkit-filter 0.8s, -webkit-transform 0.8s;
 }
 
 .imgallery:hover {
@@ -31,33 +48,39 @@
 }
 
 .imgallery:hover img {
-  -webkit-filter: brightness(90%) contrast(125%);
-          filter: brightness(90%) contrast(125%);
-  opacity: 0.6;
+  -webkit-filter: brightness(110%) contrast(110%);
+          filter: brightness(110%) contrast(110%);
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
   -webkit-transition-duration: .8s;
           transition-duration: .8s;
 }
 
-/*
-.pagination {
-    margin-top: 2em;
-    li {
-        a {
-            color: rgb(71, 71, 71);
-            text-decoration: none;
-            font-weight: 500;
-            font-size: 1.5em;
-            padding: 0 0.5em;
-            &.active {
-                color: rgb(160, 59, 59)
-            }
-            &:hover:not(.active) {
-                color: rgb(189, 189, 189);
-            }
-        }
-    }
+.pagination ul {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
 }
-*/
+
+.pagination ul li {
+  display: inline;
+}
+
+.pagination ul li a {
+  font-weight: 500;
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.pagination > .active > a {
+  background-color: #6d0909 !important;
+  border-color: #6d0909 !important;
+  color: white;
+}
+
+.pagination li:hover:not(.active) a {
+  background-color: #f5cfcf;
+}
 /*# sourceMappingURL=style-pictures.css.map */
