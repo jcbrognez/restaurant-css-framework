@@ -142,8 +142,7 @@ h2 {
     border-radius: 1.25rem;
     box-shadow: 2px 2px 3px rgb(124, 124, 124);
     transition: all .7s;
-    .img {
-        filter: brightness(150%);
+    img {
         transition: filter .7s, transform 0.7s, opacity .7s;
     }
 }

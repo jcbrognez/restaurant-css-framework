@@ -168,9 +168,7 @@ h2 {
   transition: all .7s;
 }
 
-.imgallery .img {
-  -webkit-filter: brightness(150%);
-          filter: brightness(150%);
+.imgallery img {
   -webkit-transition: opacity .7s, -webkit-filter .7s, -webkit-transform 0.7s;
   transition: opacity .7s, -webkit-filter .7s, -webkit-transform 0.7s;
   transition: filter .7s, transform 0.7s, opacity .7s;
