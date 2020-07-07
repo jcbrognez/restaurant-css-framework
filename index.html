@@ -6,63 +6,58 @@
     <title>Welcome</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+
+    <script src="https://kit.fontawesome.com/e0362e83aa.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Galada&family=Montserrat&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-blue bg-blue">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
+  <header>
+    <h1>Lorem</h1>
+    <nav>
+        <!-- Menu Classique -->
+        <ul class="nav-menu">
+            <li><a href="index.html">Welcome</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="picture1.html">Pictures</a></li>
+            <li><a href="restaurant.html">Restaurants</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <!-- Menu Mobile -->
+        <div class="btn-group dropleft list-menu">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="fas fa-bars fa-2x"></i>
             </button>
-          
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Dropdown
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                  </div>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                </li>
-              </ul>
-              <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-              </form>
-            </div>
-          </nav>   
-    </header>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <li><a class="dropdown-item" href="index.html">Welcome</a></li>
+                <li><a class="dropdown-item" href="menu.html">Menu</a></li>
+                <li><a class="dropdown-item" href="picture1.html">Pictures</a></li>
+                <li><a class="dropdown-item" href="restaurant.html">Restaurants</a></li>
+                <li><a class="dropdown-item" href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+<section class="titre container text-center">
+  <h2 class="display-4"> The Greatest Fruit Restaurant</h2>
+</section>
 
     <main class="container-fluid">
-      <section class="titre container text-center">
-            <h1 class="display-4"> The Greatest Fruit Restaurant</h1>
-      </section>
-
+      
       <section class="panel row justify-content-around mt-5">
 
 
         <article class="panel1 col-4 col-md-4 col-lg-3">
-          <h2> Happy Hour</h2>
+          <h3> Happy Hour</h3>
           <div class="panel panel-default">
             <div class="panel-body">Each Friday and Saturday <br> From 20:00 p.m to 23.pm</div>
           </div>
         </article>
 
         <article class="panel2 col-4 col-md-4 col-lg-3">
-            <h2>Panel 2</h2>
+            <h3>Panel 2</h3>
             <div class="panel panel-default">
               <div class="panel-body">Each Friday and Saturday <br> From 20:00 p.m to 23.pm</div>
             </div>
@@ -73,12 +68,21 @@
         <section class="jumbotron jumbotron-fluid " >
           <div class="texte container text-center ">
 
-            <h2 class="display-6">Lorem</h2>
+            <h3 class="display-6">Lorem</h3>
             <p class="lead">Aurore, François, Jean-Claude & Stephane</p>
           </div>
         </section>   
       
     </main>
+    <footer>
+      <div class="social">
+          <i class="fab fa-facebook-square fa-3x"></i>
+          <i class="fab fa-instagram-square fa-3x"></i>
+          <i class="fab fa-twitter-square fa-3x"></i>
+      </div>
+      <p>&copy; <a href="https://becode.org/">BeCode</a> -
+          <a href="https://github.com/riizbae/restaurant-css-framework">Groupe 5</a></p>
+  </footer>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
