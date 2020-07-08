@@ -10,6 +10,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   width: 100vw;
   overflow-x: hidden;
+  position: fixed;
 }
 
 header {

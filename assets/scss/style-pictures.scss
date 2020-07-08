@@ -87,6 +87,7 @@ footer {
     .nav-menu {
         opacity: 0;
         transform: translateX(200%);
+        position: fixed;
     }
     header .list-menu {
         display: block;
