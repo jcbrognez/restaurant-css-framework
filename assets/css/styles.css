@@ -3,12 +3,12 @@
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  max-width: 100vw;
 }
 
 body {
   background-color: #7D110E;
   font-family: 'Montserrat', sans-serif;
+  max-width: 100vw;
   overflow-x: hidden;
 }
 
@@ -139,6 +139,7 @@ footer a:hover {
 
 @media (max-width: 768px) {
   body {
+    max-width: 100vw;
     overflow-x: hidden;
   }
   .nav-menu {
