@@ -3,12 +3,22 @@ main {
     margin:auto;
 
     .card {
+        h3 {
+            color: #FCE2CC;
+            text-shadow: 2px 2px 2px #7D110E;
+        }
         p {
-            background-color:rgba(255,255,255,.3);
+            background-color:rgba(252, 226, 204, 0.5);
+            color: black;
+            text-shadow: 0.2px 0.2px 0 lightgrey;
 
             :hover {
                 background-color:#FFF;
             }
         }
+    }
+    .adress {
+        color: #FCE2CC;
+        margin-top: 15px;
     }
 }

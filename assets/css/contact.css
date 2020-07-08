@@ -3,6 +3,10 @@ main {
   margin: auto;
 }
 
+main label {
+  color: #FCE2CC;
+}
+
 form {
   background: transparent;
 }
