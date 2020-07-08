@@ -11,6 +11,8 @@ $black : #201C1D;
 body {
     background-color: $purple;
     font-family: 'Montserrat', sans-serif;
+    width: 100vw;
+    overflow-x: hidden;
 }
 
 header {
@@ -79,6 +81,7 @@ footer {
 
 @media (max-width: 768px) {
     body {
+        width: 100vw;
         overflow-x: hidden;
     }
     .nav-menu {

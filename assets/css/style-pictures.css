@@ -8,6 +8,8 @@
 body {
   background-color: #7D110E;
   font-family: 'Montserrat', sans-serif;
+  width: 100vw;
+  overflow-x: hidden;
 }
 
 header {
@@ -101,6 +103,7 @@ footer a:hover {
 
 @media (max-width: 768px) {
   body {
+    width: 100vw;
     overflow-x: hidden;
   }
   .nav-menu {
