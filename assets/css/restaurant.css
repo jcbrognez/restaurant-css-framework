@@ -22,4 +22,9 @@ main .adress {
   color: #FCE2CC;
   margin-top: 15px;
 }
+
+main .btn {
+  background-color: #7D110E;
+  border-style: none;
+}
 /*# sourceMappingURL=restaurant.css.map */
