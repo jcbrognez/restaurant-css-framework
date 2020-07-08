@@ -13,7 +13,6 @@ body {
     font-family: 'Montserrat', sans-serif;
     width: 100vw;
     overflow-x: hidden;
-    position: fixed;
 }
 
 header {
@@ -119,6 +118,7 @@ footer {
     .nav-menu {
         opacity: 0;
         transform: translateX(200%);
+        position: fixed;
     }
     header .list-menu {
         display: block;
