@@ -6,11 +6,13 @@ $black : #201C1D;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    max-width: 100vw;
 }
 
 body {
     background-color: $purple;
     font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
 }
 
 header {
