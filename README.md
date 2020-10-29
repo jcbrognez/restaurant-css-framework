@@ -1,16 +1,16 @@
 # Projet : Bootstrap
 
-Réalisation en équipe d'un site web vitrine pour une franchise de restaurants fictive. [Lien vers l'énoncé de l'exercice](https://github.com/becodeorg/CRL-Woods-3.21/blob/master/LearningPath/01-Prairie/10.Bootstrap/BootstrapProject/readme.md)
+Creation of a fictive restaurant's website. This is a teamwork realized in a 3 days sprint while learning @Becode.
 
-[Lien vers le Projet (Github Page)](https://riizbae.github.io/restaurant-css-framework/index.html)
+[Link to the project (Github Page)](https://riizbae.github.io/restaurant-css-framework/index.html)
 
 ![](home.jpg)
 
 ![](gallery.jpg)
 
-Par [Aurore Limage](https://github.com/riizbae), [Jean-Charles Brognez](https://github.com/jcbrognez), [Stéphane Kalonji](https://github.com/kalonjis) et [François Wauters](https://github.com/fwauters).
+The amazing team : [Aurore Limage](https://github.com/riizbae), [Jean-Charles Brognez](https://github.com/jcbrognez), [Stéphane Kalonji](https://github.com/kalonjis) et [François Wauters](https://github.com/fwauters).
 
 
-## Crédits Photo
+## Photo Credentials
 
-Toutes les photos viennent d'[Unsplash](https://unsplash.com/).
+All images come from [Unsplash](https://unsplash.com/).
